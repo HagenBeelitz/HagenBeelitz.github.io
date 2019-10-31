@@ -1,0 +1,42 @@
+.chat-header {
+  background-color: lightgreen;
+  padding: 15px 10px 15px 10px;
+}
+
+ /* handle long title with overflow */
+.chat-header-title {
+  width : 100px;
+  padding: 0px 10px 0px 10px;
+  align-self: center;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-header-button {
+  margin: 0;
+  padding: 0px 20px 0px 20px;
+}
+
+.chat-list {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.chat-textfield-form {
+  width: 100%;
+}
+
+.chat-textfield {
+  padding: 20px 10px 20px 10px;
+  background-color: lightgreen;
+}
+
+.chat-input {
+  width: 100%;
+}
+
+.chat-input-button {
+  margin: 0px 5px 0px 5px;
+}
